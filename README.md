@@ -1,8 +1,21 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Issue: Tailwind CSS Styles Not Rendering
 
-Currently, two official plugins are available:
+## Problem
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I encountered an issue where Tailwind CSS styles were not rendering correctly in my project, despite following various suggestions from online forums.
+
+## Solution
+
+The problem stemmed from spaces in the path specified in the `tailwindcss.config` file, which determines the files and directories where Tailwind CSS styles should be applied. Here is the corrected configuration:
+
+```javascript
+module.exports = {
+  content: [
+    "./index.html",
+    './src/**/*.{js,ts,jsx,tsx}', // Issue: spaces between the file types
+  ],
+  // Other configurations...
+};
+

@@ -2,7 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-
+import colo
 * {
-    font-family: "Rubik", "Roboto Condensed";
+    font-family: "Rubik", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+span {
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.greenShadow {
+    box-shadow: 2px 2px 0 0 #5eead4;
+}
+
+.greenShadow:hover {
+    transform: translate(-1px -1px);
+    box-shadow: 6px 6px 0 0 ;
+    color: #5eead4;
+
 }
