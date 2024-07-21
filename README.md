@@ -1,7 +1,7 @@
 # SMOLBOIS
 
 🏋️ The SMOLBOIS app delivers personalized workout plans tailored to your goals and fitness level. With its easy to navigate interface, you can select through muscle groups, workout splits, and your goals to generate your 💪SMOLDIER plan today🗒️.
-No two plans are the same so you'll never get bored! Click our link[] to get started!
+No two plans are the same so you'll never get bored! Click our [link](https://smol-bois.vercel.app/) to get started!
 
 -------------------------------------------
 
